@@ -1,0 +1,30 @@
+*{
+       font-family: "Roboto", sans-serif;
+
+}
+
+.bg-image{
+    background-image: url( ./pexels-janetrangdoan-1092730.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+
+.menu{
+
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 1rem;
+}
+
+
+.card:hover{
+
+    transform: translateY(-5px);
+}
+
+
+
+
